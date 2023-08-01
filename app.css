@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto; 
+       background-color: #f0f4f9;
+}
+
+.box-wrapper {
+    padding: 64px ;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.box1 {
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    min-width: 340px;
+    flex-basis: 30%;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(128, 112, 
+    22, .5);
+    transition: transform .5s ease;
+}
+
+.box1:hover {
+    transform: translateY(-30px);
+
+}
+
+.fa-brands, .fa-solid {
+    font-size: 60px;
+    color: #ffaa17;
+    margin-bottom: 6px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+h2 {
+    text-transform:capitalize;
+    font-size: 30px; 
+    margin-bottom: 14px;
+}
+
+button {  
+    padding: 15px 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    letter-spacing: .5px;
+    font-size: 16px;
+    background-color: #ffaa17;
+    transition: all .4s ease;
+}
+
+button:hover {
+    color: #ffaa17;
+    background-color: white;
+    border: 1px solid #ffaa17;
+    
+}
